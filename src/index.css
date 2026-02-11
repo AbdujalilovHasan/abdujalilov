@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Lexend:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playwrite+ES:wght@100..400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: Mulish;
+}
+
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bg-color {
+  background: #F1F0EE;
+  height: 100vh;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.bg-color2 {
+  margin-top: 80px;
+  background: #F1F0EE;
+  padding: 20px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}

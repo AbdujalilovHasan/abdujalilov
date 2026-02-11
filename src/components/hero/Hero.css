@@ -1,0 +1,72 @@
+.info {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.frame-img {
+  width: 180px;
+  height: 180px;
+  perspective: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.author-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  transform-style: preserve-3d;
+  transition: transform 0.15s ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.author-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.title {
+  font-size: 38px;
+  font-weight: 800;
+  max-width: 400px;
+}
+
+.subtitle {
+  font-weight: 800;
+  margin-top: 12px;
+  font-size: 38px;
+  max-width: 600px;
+  opacity: 0.8;
+}
+
+@media (max-width: 425px) {
+  .info {
+    margin-top: 80px;
+  }
+
+  .frame-img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .author-img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+}
